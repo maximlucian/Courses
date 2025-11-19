@@ -1,0 +1,6 @@
+    This chapter is covered in the notebook as it explains Packaging and Deploying Java Code
+
+-->   Defining modules and exposing module content.
+-->   Reflection and declaring module dependencies.
+-->   Defining services, providers, and consumers.
+-->   Creating modular and non-modular jars, runtime images, and implementing migration to modules using unnamed and automatic modules.

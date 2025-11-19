@@ -1,0 +1,15 @@
+package chapter_6_CLASS_DESIGN.overriding;
+
+import java.io.FileNotFoundException;
+import java.io.IOException;
+
+public class Reptile {
+    protected void sleep() throws IOException {
+    }
+
+    protected void hide() {
+    }
+
+    protected void exitShell() throws FileNotFoundException {
+    }
+}
