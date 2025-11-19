@@ -1,0 +1,25 @@
+For Streams, we have the following metods:
+
+Method                    Finite?          Notes
+
+Stream.empty()             YES         Creates a Stream with zero elements.
+
+Stream.of(varargs)         YES         Creates a Stream with elements listed.
+
+coll.stream()              YES         Creates a Stream from a COLLECTION.
+
+coll.parallelStream()      YES         Creates a Stream from collection where
+                                       the Stream can run in parallel.
+
+Stream.generate()           NO         Creates a Stream bu calling Supplier for
+                                       each element upon request.
+
+                                        Creates a Stream by using seed for
+ Stream.iterate             NO          first element and then calling
+(seed, unaryOperator)                   UnaryOperator for each subsequent
+                                        element upon request.
+
+                                        Creates Stream by using seed for first
+Stream.iterate(seed,      YES/NO        element and then calling UnaryOperator for each
+predicate, unaryOpreator)               subsequent element upon request. Stops if
+                                        Predicate returns false.
